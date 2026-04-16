@@ -117,7 +117,7 @@ HINT: In gdb, if you hit `Enter` without typing in a command, it will execute
 
 10	Make a new breakpoint in a different file by providing the full file path:
 
-		(gdb) break includes/my_includes.h:14
+		(gdb) break include/my_includes.h:14
 
     Run the program until it hits the breakpoint using `run`.
 
